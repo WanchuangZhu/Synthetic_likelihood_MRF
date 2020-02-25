@@ -11,4 +11,5 @@ In this example, the Potts model is used as hidden variables. And the neighouhoo
 Run SLPCDforgrasssecond.m in folder secondorder to obtain the posterior samples of all the parameter.
 In this example, the Potts model is used as hidden variables. And the neighouhood structure is the second neighbourhood structure.
 
+# Reference
 
