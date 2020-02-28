@@ -4,12 +4,16 @@ We take advantage of conditional independence of the Potts model to simplify the
 
 # Instructions
 
+## Make inference for the inverse temperature parameter in Potts model
+In this scenario, a realization of the Potts model is directly observed. The aim is to make inference of the inverse temperature parameter.
 
-## Example of grass image
-Run SLPCDforgrass.m to obtain the posterior samples of all the parameter.
+
+## Example of grass image: use the Potts model as hidden variable
 In this example, the Potts model is used as hidden variables. And the neighouhood structure is the first neighbourhood structure.
-Run SLPCDforgrasssecond.m in folder secondorder to obtain the posterior samples of all the parameter.
-In this example, the Potts model is used as hidden variables. And the neighouhood structure is the second neighbourhood structure.
+
+Run 'SLPCDforgrass.m' to obtain the posterior samples of all the parameter.
+
+Run 'SLPCDforgrasssecond.m' in folder secondorder to obtain the posterior samples of all the parameter. In this example, the Potts model is used as hidden variables. And the neighouhood structure is the second neighbourhood structure.
 
 ## The explaination of the TXT files
 p1tableCT=1q=2.txt is the results obtained from Monte Carlo simulations. 'q=2' indicates that this is for Ising model. If 'q=3', the file is for Potts model with q=3. 'CT=1' indicates that the two conditional items have the same label. While "CT=2" indicates that the two conditional items have different labels. 'p1table' indicates that there is only one conditional item. While 'p2table' indicates that there are two conditional items in the conditional density.
